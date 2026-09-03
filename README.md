@@ -62,3 +62,6 @@ python -m src.data_sources.coinbase_orderflow ALGO ICP QNT
 Data lands in `data/raw/<PRODUCT>/<date>.jsonl` (live capture) and
 `data/historical/<SYMBOL>/*.parquet` (backfill) — both gitignored,
 regenerable, not meant to be committed.
+
+
+Data can also be sourced easily holding it will be the trouble need approximately 500 gbs to hold around 3 years of orderbook and order flow tick level data for ALGO coin. 
